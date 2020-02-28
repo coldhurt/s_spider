@@ -1,6 +1,6 @@
 {
   "name": "s_spider",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast crawler cli with pyppteer, this crawler can crawl SPA(single page application)",
   "main": "index.js",
   "scripts": {
@@ -10,15 +10,24 @@
   "bin": {
     "s_spider": "./dist/index.js"
   },
-  "keywords": [],
-  "author": "myths",
+  "keywords": [
+    "crawler",
+    "spider"
+  ],
+  "author": "coldhurt",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coldhurt/s_spider.git"
+  },
   "homepage": "https://github.com/coldhurt/s_spider#readme",
   "dependencies": {
-    "@types/puppeteer": "^2.0.1",
     "colors": "^1.4.0",
     "commander": "^4.1.1",
-    "puppeteer": "^2.1.1",
+    "puppeteer": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^2.0.1",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.2"
   }

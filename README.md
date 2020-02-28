@@ -13,7 +13,7 @@ npm install -g s_spider
 ```bash
 $ s_spider -h
 
-Usage: index.ts [options]
+Usage: index [options]
 
 Options:
   -v --version           output the current version
